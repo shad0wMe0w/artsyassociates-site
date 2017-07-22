@@ -1,0 +1,67 @@
+@import url("bootstrap.min.css");
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.navbar-header{
+  padding-right: 20px;
+}
+.navbar-header h3 {
+  margin-bottom: auto;
+}
+#navbar ul.nav.nav-pills.pull-right li a{
+  /* aligns the membership ctas with the rest of the site nav */
+  padding: 15px;
+}
+.jumbotron{
+  margin-top: 100px;
+  padding-top: 40px;
+  background-color: #aaaaaa;
+}
+.tag{
+ font-family: monospace;
+ margin: 15px 0;
+}
+.link-inline{
+ float: right;
+ position: relative;
+ top: 3px;
+ margin: 0;
+}
+.light-dark a[role='button']{
+ display: inline-block;
+ padding: 10px;
+ text-decoration: none;
+ font-weight: bold;
+ background-color: transparent;
+ color: #444444;
+ border: 2px solid #444444;
+ margin: 20px 0 10px 0;
+}
+.dark-light a[role='button']{
+ display: inline-block;
+ padding: 10px;
+ text-decoration: none;
+ font-weight: bold;
+ background-color: #444444;
+ color: white;
+ border: 2px solid #444444;
+ margin: 20px 0 10px 0;
+}
+.light-dark a[role='button']:hover{
+  color: white;
+  background-color: #444444;
+}
+.dark-light a[role='button']:hover{
+  color: #444444;
+  background-color: transparent;
+}
+a:hover, a:focus, a:active{
+  /*box-shadow: 0px 2px 0 0px #adadad;*/
+  background-color: #dedede;
+}
+.container-calendar {
+  border: 1px solid #444444;
+  margin-top: 20px;
+  padding-top: 20px;
+}
